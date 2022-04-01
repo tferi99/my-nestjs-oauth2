@@ -30,11 +30,11 @@ export class UsersService
 				name      : 'tferi',
 				discord_id: '426324681910517760',
 			},
-			{
+/*			{
 				userId    : 5,
 				name      : 'discord',
 				discord_id: '959088233319383080',
-			},
+			},*/
 		];
 	}
 
