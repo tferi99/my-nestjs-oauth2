@@ -66,8 +66,24 @@ CLIENT_APP_SECRET=Abc.....
       ...
     }
   ```
+  
+  
+### Angular Frontend
+Configuration file: _nestjs-oauth-discord-ui-angular/src/environments/environment.ts_
+Set 'Client ID':
+```
+clientAppId: '123.....',
+```
+
+### VueJs Frontend
+Configuration file: _nestjs-oauth-discord-ui-vue/.env_
+Set 'Client ID':
+```
+DISCORD_CLIENT_ID=123.....
+```
+
   NOTE: Discord ID of the user can be retrieved from NestJS console log first time you try to login:
-  ```
+```
 [Nest] 27580   - 04/01/2022, 11:32:25 PM   [RouterExplorer] Mapped {/auth/discord, GET} route +3ms
 [Nest] 27580   - 04/01/2022, 11:32:25 PM   [NestApplication] Nest application successfully started +6ms
 DiscordStrategy.validate(accessToken: FJEcnlwk20Xk8KvIBRkVOa46OrWETl)
@@ -84,21 +100,6 @@ Data from Discord:  {
   locale: 'en-US',
   mfa_enabled: false
 }
-  ```
-  
-  
-### Angular Frontend
-Configuration file: _nestjs-oauth-discord-ui-angular/src/environments/environment.ts_
-Set 'Client ID':
-```
-clientAppId: '123.....',
-```
-
-### VueJs Frontend
-Configuration file: _nestjs-oauth-discord-ui-vue/.env_
-Set 'Client ID':
-```
-DISCORD_CLIENT_ID=123.....
 ```
 
 ## Running
