@@ -66,3 +66,24 @@ Set 'Client ID':
 ```
 DISCORD_CLIENT_ID=123.....
 ```
+
+## Running
+### NestJS Backend:
+```
+cd nestjs-oauth-discord
+npm run start
+```
+
+### Angular Frontend
+```
+cd nestjs-oauth-discord-ui-angular
+npm run start
+```
+Access: [Angular application](http://localhost:4200)
+
+### VueJs Frontend 
+```
+cd nestjs-oauth-discord-ui-vue
+npm run start
+```
+Access: [VueJS application](http://localhost:8081)
